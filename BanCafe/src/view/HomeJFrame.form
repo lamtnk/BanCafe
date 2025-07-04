@@ -43,6 +43,7 @@
                   </Group>
                   <Component id="jButton1" max="32767" attributes="0"/>
                   <Component id="btnNapThe" max="32767" attributes="0"/>
+                  <Component id="btnQLDM" max="32767" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
               <Component id="pnlMain" pref="600" max="32767" attributes="0"/>
@@ -66,7 +67,9 @@
               <Component id="jButton1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="btnNapThe" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="393" max="32767" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="btnQLDM" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="358" max="32767" attributes="0"/>
           </Group>
           <Component id="pnlMain" alignment="0" max="32767" attributes="0"/>
       </Group>
@@ -121,6 +124,11 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnNapTheActionPerformed"/>
       </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnQLDM">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Qu&#x1ea3;n l&#xfd; danh m&#x1ee5;c"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>
